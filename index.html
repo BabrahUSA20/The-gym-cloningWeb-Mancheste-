@@ -1,13 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mancheste</title>
-    <link rel="stylesheet" href="/clone.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-    <nav class="flex justify-around  bg-white  text-[24px]  items-center p-5 rounded-md">
+    <div>
+        <div>
+            <div class="nav" class="flex flex-row justify-around gap-10 ">
+                <div class="logo flex flex-row gap-20 justify-center p-5">
+                    <div>
+                    <img src="./image/logo-university-of-manchester.png" alt="logo" class="xl:w-[160px] xl:h-[80px] sm:w-[150px] sm:h-[60px]">
+                </div>
+                <div class="hidden sm:block md:block">
+                    <img src="./image/icon-home-25px-949699.png" alt="home" class="w-[35px] h-[35px]">
+                    <ul class=" font-sans text-[24px] flex flex-row gap-10 text-gray-700 font-thin">
+                        <li>Study</li>
+                        <li>Research</li>
+                        <li>Collaborate</li>
+                        <li>About</li>
+                        <li>Connect</li>
+                    </ul>
+                </div>
+                    <div
+                        class="ml-20 flex flex-row gap-2 text-[20px] p-1 h-[50px]  text-gray-700 rounded-2xl ">
+                        <div>
+                        <img src="./image/icon-search-mobile.png" alt="search" class=" h-[25px] w-[25px] mt-3">
+                        <img src="./image/icon-menu.gif" alt="" class="hidden sm:block md:block h-[25px] w-[25px] mt-3">
+                    </div>
+<div class="hidden md:block xl:block">
+                        <a href="#" class="  w-[100px] h-[20px] text-[30px] font-thin text-center ">Search</a>
+</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="bg-gray-200 ">
+            <div class=" relative m-[80px] mt-[20px]">
+                <img src="./image/student-life-smaller.jpeg" alt="background" class=" h-full w-full">
+                <div class=" absolute inset-5 flex flex-col justify-start  space-y-0 m-5 p-5 font-sans translate-x-2 gap-5 ">
+                    <div class=" w-5/12 h-30  bg-white  bg-opacity-75 ">
+                    <p  class="text-[30px] font-bold p-3">Life at Manchester</p>
+                    <p class=" relative font-medium  p-3">Discover more abouT campus, our city, and the opportunities to make a different here.</p>
+                </div>
+                    <div class="">
+                    <a href="#" class="bg-purple-700 w-10 h-10 rounded-sm text-white text-[20px] items-start justify-start py-3  px-20">Learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class=" m-20 p-5 bg-white font-sans ">
+            <p class="text-gray-900 text-[40px] font-thin">Study</p>
+        </div>
+        <div class="bg-white">   
+            <div class=" m-20 -mt-20 font-sans flex flex-row justify-around gap-10">
+                <div class=" grid w-[900px] h-[300px] p-5 bg-purple-900">
+                    
+                        <p class="text-white text-[25px]">Course and programme finder</p>
+                        <div class="flex flex-col-2 justify-between ">
+                            <p class="text-[20px] text-white ">A-Z lists:</p>
+                            <div class=" relative flex text-gray-700 flex-col  gap-1 w-[500px] font-sans">
+                                <input type="text" placeholder="Undergraduate" class="w-[420px] text-black rounded-md font-medium h-[40px]">
+                                <img src="/image/" alt="">
+                                <input type="text" placeholder="Enter Keywords" class="w-[420px] mt-3 h-[40px] rounded-md ">
+
+                                <img src="/image/" alt="">
+                                <a href="#" class="bg-[#383a3c] p-1 w-[420px] mt-3 h-[40px] text-center  rounded-md text-[20px] text-white">Search</a>
+                                
+                            </div>
+        
+        
+                        </div>
+                    <div>
+                        <ul class="text-yellow-400 text-[20px] -mt-6">
+                            <li><span class="text-[15px]">>></span> Undergraduate courses</li>
+                            <li><span class="text-[15px]">>></span> Taught master's courses</li>
+                            <li><span class="text-[15px]">>></span> Postgraduate research areas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" w-1/3 h-[300px]   bg-gray-200 font-sans flex flex-col justify-around">
+                    <p class="text-[35px]  m-4 p-3">Master's Expo</p>
+                    <p class=" text-[20px] m-4  -mt-10  p-2">Meet experts and explore postgraduate study at our master's event
+                        on 19 March, 2-6pm. </p>
+                    <a href="#" class="text-purple-700 m-4 p-2  -mt-5 text-[20px] underline">Read more</a>
+                </div>
+            </div>
+
+<div>
+    <div class="  m-20 p-5 bg-white font-sans ">
+        <p class="text-gray-900 text-[40px] font-thin">Popular links</p>
+    </div>
+    <div class=" m-20 p-3 -mt-20 flex flex-row gap-10 justify-between text-gray-800">
+        <div class="relative  flex flex-col gap-10">
+            <img src="./image/Manc2035-500x298_2-Jan-25.jpeg" alt="image" class=" h-full w-full object-cover hh-60 w-63">
+
+            <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
+
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px]  text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
+
+        </div>
+
+        <div class="relative flex flex-col gap-10">
+            <img src="./image/Bicentenary-PhD-Studentships-500x298.jpeg" alt="image"
+                class=" h-full w-full object-cover  w-63">
+            <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
+
+        </div>
+        <div class="relative flex flex-col gap-10">
+            <img src="./image/Bicent-Starburst-web-assets-500x298-3.jpeg" alt="image"
+                class=" h-full w-full object-cover">
+            <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
+
+        </div>
+
+</div>
+
+
+
+
+
+
+        </div>
+    
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <nav class="flex justify-around  bg-white  text-[24px]  items-center p-5 rounded-md">
         <div class=" logo h-20 w-44 flex gap-4 items-center ">
             <img src="./image/logo-university-of-manchester.png" alt="image"  >
                 </div>
@@ -27,8 +183,8 @@
        <img src="./image/icon-search-mobile.png" alt="" class="h-5 w-5 m-3 ">
         <a href="#">Search</a>
        </div>
-    </nav>
-    <div class=" relative">
+    </nav> -->
+    <!-- <div class=" relative">
         <img src="./image/student-life-smaller.jpeg" alt="background" class=" h-full w-full">
         <div class=" absolute inset-5 flex flex-col justify-start  space-y-0 m-5 p-5 font-sans translate-x-2 gap-5 ">
             <div class=" w-5/12 h-30  bg-white ">
@@ -39,164 +195,195 @@
             <a href="#" class="bg-purple-700 w-10 h-10 rounded-sm text-white text-[20px] items-start justify-start py-3 px-20">Learn more</a>
         </div>
         </div>
-    </div>
-    <div class="m-10 p-5 bg-white font-sans " >
+    </div> -->
+    <!-- <div class="m-10 p-5 bg-white font-sans ">
         <p class="text-gray-900 text-[40px] font-thin">Study</p>
     </div>
     <div class="m-5  font-sans flex flex-row justify-around gap-10">
         <div class=" grid w-[900px] p-5 bg-purple-900">
             <div class="">
-            <p class="text-white text-[30px]">Course and programme finder</p>
-            <div class="flex flex-col-2 gap-40">
-            <p class="text-[28px] text-white ">A-Z lists:</p><br>
-            <div   class= " relative flex text-gray-700 flex-col  gap-1 w-[500px]">
-                <p class=" m-2 p-2 bg-white rounded-sm ">Undergraduate</p>
-                <img src="/image/" alt="">
-                <p class="m-2 p-2  bg-white rounded-sm">Enter keywords</p>
-                <img src="/image/" alt="">
-                <a href="#" class=" absolute bg-black rounded-sm text-white text-center w-[446px] m-2 p-2 font-bold -bottom-20">Search</a>
+                <p class="text-white text-[30px]">Course and programme finder</p>
+                <div class="flex flex-col-2 gap-40">
+                    <p class="text-[28px] text-white ">A-Z lists:</p><br>
+                    <div class=" relative flex text-gray-700 flex-col  gap-1 w-[500px]">
+                        <p class=" m-2 p-2 bg-white rounded-sm ">Undergraduate</p>
+                        <img src="/image/" alt="">
+                        <p class="m-2 p-2  bg-white rounded-sm">Enter keywords</p>
+                        <img src="/image/" alt="">
+                        <a href="#"
+                            class=" absolute bg-black rounded-sm text-white text-center w-[446px] m-2 p-2 font-bold -bottom-20">Search</a>
+                    </div>
+
+
+                </div>
+
             </div>
-           
-
-        </div>
-
-        </div>
             <div>
-            <ul class="text-yellow-400 text-[20px]">
-                <li><span class="text-[15px]">>></span> Undergraduate courses</li>
-                <li><span class="text-[15px]">>></span> Taught master's courses</li>
-                <li><span class="text-[15px]">>></span> Postgraduate research areas</li>
-            </ul></div>
+                <ul class="text-yellow-400 text-[20px]">
+                    <li><span class="text-[15px]">>></span> Undergraduate courses</li>
+                    <li><span class="text-[15px]">>></span> Taught master's courses</li>
+                    <li><span class="text-[15px]">>></span> Postgraduate research areas</li>
+                </ul>
+            </div>
         </div>
         <div class=" w-1/3 h-25   bg-gray-400  font-sans flex flex-col justify-around">
-            <p  class="text-[35px]  m-4 p-3">Master's Expo</p>
-            <p class=" relative  text-[25px] m-4  p-3">Meet experts and explore postgraduate study at our master's event on 19 March, 2-6pm. </p>
+            <p class="text-[35px]  m-4 p-3">Master's Expo</p>
+            <p class=" relative  text-[25px] m-4  p-3">Meet experts and explore postgraduate study at our master's event
+                on 19 March, 2-6pm. </p>
             <a href="#" class="text-purple-700 m-4 text-[25px] underline">Read more</a>
         </div>
-    </div>
-    <div class="  m-10 p-5 bg-white font-sans " >
+    </div> -->
+    <!-- <div class="  m-10 p-5 bg-white font-sans ">
         <p class="text-gray-900 text-[40px] font-thin">Popular links</p>
     </div>
-<div class=" m-10 p-5  flex flex-row gap-10 justify-between text-gray-800">
-    <div class="relative  flex flex-col gap-10">
-        <img src="/image/Manc2035-500x298_2-Jan-25.jpeg" alt="image" class=" h-full w-full object-cover hh-60 w-63">
+    <div class=" m-10 p-5  flex flex-row gap-10 justify-between text-gray-800">
+        <div class="relative  flex flex-col gap-10">
+            <img src="/image/Manc2035-500x298_2-Jan-25.jpeg" alt="image" class=" h-full w-full object-cover hh-60 w-63">
 
-        <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-   
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px]  text-[25px]  p-3 h-30 bg-white" >Shape our strategy</p>
-   
-    </div>
-    
-    <div class="relative flex flex-col gap-10">
-        <img src="/image/Bicentenary-PhD-Studentships-500x298.jpeg" alt="image" class=" h-full w-full object-cover  w-63">
-        <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white" >Shape our strategy</p>
+            <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
 
-    </div>
-    <div class="relative flex flex-col gap-10">
-        <img src="/image/Bicent-Starburst-web-assets-500x298-3.jpeg" alt="image" class=" h-full w-full object-cover">
-        <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white" >Shape our strategy</p>
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px]  text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
 
-    </div>
-    
-   
-</div>
-<div class="  m-0 p-5 bg-gray-200 font-sans " >
-    <p class=" p-5 text-gray-900 text-[40px] font-thin">Research</p>
-<div class="  p-5  flex flex-row gap-10 justify-between text-gray-800 ">
-    <div class="relative  flex flex-col gap-10">
-        <img src="/image/Manchester-Skyline-500x298.jpeg" alt="image" class=" h-full w-full object-cover hh-60 w-63">
-
-        <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-   
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px]  text-[25px]  p-3 h-30 bg-white" >Research beacons</p>
-   
-    </div>
-    
-    <div class="relative flex flex-col gap-10">
-        <img src="/image/research-impact-promo-(500x298).jpeg" alt="image" class=" h-full w-full object-cover  w-63">
-        <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white" >impact</p>
-
-    </div>
-    <div class="relative flex flex-col gap-10">
-        <img src="/image/uom-research-people-row.jpeg" alt="image" class=" h-full w-full object-cover">
-        <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white" >Research Explorer</p>
-
-    </div>
-</div>
-   
-</div>
-<div>
-    <div class="m-10 p-5 bg-white font-sans " >
-        <p class="text-gray-900 text-[40px] font-thin">News</p>
-    </div>
-    <div class=" m-10 p-5  flex flex-row gap-10 justify-between text-gray-800 h-60 w-63 ]">
-        <div class="relative  flex flex-col gap-5 w-[900px] ">
-            <img src="/image/Support-Manchester.jpeg" alt="image" class="">
-            <p class="text-2xl text-black">Celebrating 125 years of the John Rylands Library</p>
-            <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
         </div>
-        
-        <div class="relative flex flex-col gap-5 w-[900px] ">
-            <img src="/image/1920_1920-garyyounge-214300-2-(1).jpeg" alt="image" class="">
-            <p class="text-2xl text-black">Professor Gary Younge wins prestigious journalism award</p>
-            <p class=" text-[20px]">Manchester's Professor Gary Younge has won the prestigious Robert B. Silvers Award in recognition of exceptional contribution to the field if journalism</p>
-    
+
+        <div class="relative flex flex-col gap-10">
+            <img src="/image/Bicentenary-PhD-Studentships-500x298.jpeg" alt="image"
+                class=" h-full w-full object-cover  w-63">
+            <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
+
         </div>
-        <div class="relative flex flex-col gap-5 w-[900px]">
-            <img src="/image/Professor-Yaojun-Li-(2.1.25).jpg" alt="image" class="">
-            <p class="text-2xl text-black">Celebrating 125 years of the John Rylands Library</p>
-            <p class="text-[20px]">Professor Yaojun Li has been  made an OBE for hid exceptional services to the Advancement of Knowledge in social Mobile and to Ethinic Integration.</p>
-    
+        <div class="relative flex flex-col gap-10">
+            <img src="/image/Bicent-Starburst-web-assets-500x298-3.jpeg" alt="image"
+                class=" h-full w-full object-cover">
+            <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035
+                strategy.</p>
+            <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[225px] text-[25px]  p-3 h-30 bg-white">Shape our
+                strategy</p>
+
+        </div> -->
+
+
+    </div>
+    <div class="  m-0 p-5 bg-gray-200 font-sans ">
+        <p class=" p-5 text-gray-900 text-[40px] font-thin">Research</p>
+        <div class="  p-5  flex flex-row gap-10 justify-between text-gray-800 ">
+            <div class="relative  flex flex-col gap-10">
+                <img src="./image/Manchester-Skyline-500x298.jpeg" alt="image"
+                    class=" h-full w-full object-cover hh-60 w-63">
+
+                <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px]  text-[25px]  p-3 h-30 bg-white">Research
+                    beacons</p>
+
+            </div>
+
+            <div class="relative flex flex-col gap-10">
+                <img src="./image/research-impact-promo-(500x298).jpeg" alt="image"
+                    class=" h-full w-full object-cover  w-63">
+                <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white">impact</p>
+
+            </div>
+            <div class="relative flex flex-col gap-10">
+                <img src="./image/uom-research-people-row.jpeg" alt="image" class=" h-full w-full object-cover">
+                <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white">Research
+                    Explorer</p>
+
+            </div>
         </div>
-        <div class="relative flex flex-col gap-5 w-[900px] ">
-            <img src="/image/1920_alinemiller-(1).jpg" alt="image" class="">
-            <p class="text-2xl text-black">Unit M appoints chief Scientific Officer</p>
-            <p class="text-[20px]">The University of Manchester has appointed Professor Aline Miller as the new chief Scientific Officer of Unit M.</p>
-    
+
+    </div>
+    <div>
+        <div class="m-10 p-5 bg-white font-sans ">
+            <p class="text-gray-900 text-[40px] font-thin">News</p>
         </div>
-        <div class="relative flex flex-col gap-5 w-[900px] ">
-            <img src="/image/1920_rylands1copy-(1).jpg" alt="image" class="">
-            <p class="text-2xl text-black">Unit M appoints chief Scientific Officer</p>
-            <p class="text-[20px]">The University of Manchester has appointed Professor Aline Miller as the new chief Scientific Officer of Unit M.</p>
-    
-        </div>    
-       
+        <div class=" m-10 p-5  flex flex-row gap-10 justify-between text-gray-800 h-60 w-63 ]">
+            <div class="relative  flex flex-col gap-5 w-[900px] ">
+                <img src="./image/Support-Manchester.jpeg" alt="image" class="">
+                <p class="text-2xl text-black">Celebrating 125 years of the John Rylands Library</p>
+                <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+            </div>
+
+            <div class="relative flex flex-col gap-5 w-[900px] ">
+                <img src="./image/1920_1920-garyyounge-214300-2-(1).jpeg" alt="image" class="">
+                <p class="text-2xl text-black">Professor Gary Younge wins prestigious journalism award</p>
+                <p class=" text-[20px]">Manchester's Professor Gary Younge has won the prestigious Robert B. Silvers
+                    Award in recognition of exceptional contribution to the field if journalism</p>
+
+            </div>
+            <div class="relative flex flex-col gap-5 w-[900px]">
+                <img src="./image/Professor-Yaojun-Li-(2.1.25).jpg" alt="image" class="">
+                <p class="text-2xl text-black">Celebrating 125 years of the John Rylands Library</p>
+                <p class="text-[20px]">Professor Yaojun Li has been made an OBE for hid exceptional services to the
+                    Advancement of Knowledge in social Mobile and to Ethinic Integration.</p>
+
+            </div>
+            <div class="relative flex flex-col gap-5 w-[900px] ">
+                <img src="./image/1920_alinemiller-(1).jpg" alt="image" class="">
+                <p class="text-2xl text-black">Unit M appoints chief Scientific Officer</p>
+                <p class="text-[20px]">The University of Manchester has appointed Professor Aline Miller as the new
+                    chief Scientific Officer of Unit M.</p>
+
+            </div>
+            <div class="relative flex flex-col gap-5 w-[900px] ">
+                <img src="./image/1920_rylands1copy-(1).jpg" alt="image" class="">
+                <p class="text-2xl text-black">Unit M appoints chief Scientific Officer</p>
+                <p class="text-[20px]">The University of Manchester has appointed Professor Aline Miller as the new
+                    chief Scientific Officer of Unit M.</p>
+
+            </div>
+
+        </div>
     </div>
-</div>
 
-<div class=" relative  mt-[18%]  bg-gray-200 font-sans flex "  >
-    <p class=" p-5 text-gray-900 text-[40px] font-thin">Research</p>
-<div class=" flex flex-row  text-gray-800 mb-8  ">
-    <div class="relative  flex flex-col gap-10  justify-start">
-        <img src="/image/Manchester-Skyline-500x298.jpeg" alt="image" class="   object-cover w-[300px] h-[200px] ">
+    <div class=" relative  mt-[18%]  bg-gray-200 font-sans flex ">
+        <p class=" p-5 text-gray-900 text-[40px] font-thin">Research</p>
+        <div class=" flex flex-row  text-gray-800 mb-8  ">
+            <div class="relative  flex flex-col gap-10  justify-start">
+                <img src="./image/Manchester-Skyline-500x298.jpeg" alt="image"
+                    class="   object-cover w-[300px] h-[200px] ">
 
-        <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-   
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px]  text-[25px]  p-3 h-30 bg-white" >Research beacons</p>
-   
+                <p class="text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px]  text-[25px]  p-3 h-30 bg-white">Research
+                    beacons</p>
+
+            </div>
+
+            <div class="relative flex flex-col gap-10">
+                <img src="./image/research-impact-promo-(500x298).jpeg" alt="image"
+                    class=" w-[300px] h-[200px] object-cover ">
+                <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white">impact</p>
+
+            </div>
+            <div class="relative flex flex-col gap-2">
+                <img src="./image/uom-research-people-row.jpeg" alt="image" class="w-[300px] h-[200px] object-cover">
+                <p class="text-[15px]">Use our online tool to provide your feedback and help us shape our Manchester
+                    2035 strategy.</p>
+                <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white">Research
+                    Explorer</p>
+
+            </div>
+        </div>
     </div>
-    
-    <div class="relative flex flex-col gap-10">
-        <img src="/image/research-impact-promo-(500x298).jpeg" alt="image" class=" w-[300px] h-[200px] object-cover ">
-        <p class=" text-[20px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white" >impact</p>
-
-    </div>
-    <div class="relative flex flex-col gap-2">
-        <img src="/image/uom-research-people-row.jpeg" alt="image" class="w-[300px] h-[200px] object-cover">
-        <p class="text-[15px]">Use our online tool to provide your feedback and help us shape our Manchester 2035 strategy.</p>
-        <p class=" absolute h-[50px] w-3/5 inset-x-0 inset-y-[235px] text-[25px]  p-3 h-30 bg-white" >Research Explorer</p>
-
-    </div>
-</div>
-</div>
 
 
 
-    
+
 </body>
+
 </html>
